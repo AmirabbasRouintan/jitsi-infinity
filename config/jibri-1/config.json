@@ -1,0 +1,14 @@
+{
+  "jibri": {
+    "chrome": {
+      "flags": [
+        "--use-fake-ui-for-media-stream",
+        "--start-maximized",
+        "--kiosk",
+        "--autoplay-policy=no-user-gesture-required",
+        "--ignore-certificate-errors",
+        "--disable-gpu"
+      ]
+    }
+  }
+}

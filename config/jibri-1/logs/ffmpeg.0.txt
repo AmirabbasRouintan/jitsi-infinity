@@ -1,0 +1,773 @@
+Jibri 2026-06-10 13:45:40.274 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: ffmpeg version 5.1.9-0+deb12u1 Copyright (c) 2000-2026 the FFmpeg developers
+Jibri 2026-06-10 13:45:40.274 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   built with gcc 12 (Debian 12.2.0-14+deb12u1)
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   configuration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libavutil      57. 28.100 / 57. 28.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libavcodec     59. 37.100 / 59. 37.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libavformat    59. 27.100 / 59. 27.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libavdevice    59.  7.100 / 59.  7.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libavfilter     8. 44.100 /  8. 44.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libswscale      6.  7.100 /  6.  7.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libswresample   4.  7.100 /  4.  7.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   libpostproc    56.  6.100 / 56.  6.100
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [x11grab @ 0x559c56acbe80] Stream #0: not enough frames to estimate rate; consider increasing probesize
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Input #0, x11grab, from ':0.0+0,0':
+Jibri 2026-06-10 13:45:40.352 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Duration: N/A, start: 1781099140.315698, bitrate: 884736 kb/s
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1280x720, 884736 kb/s, 30 fps, 1000k tbr, 1000k tbn
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Guessed Channel Layout for Input Stream #1.0 : stereo
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Input #1, pulse, from 'default':
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Duration: N/A, start: 1781099140.662168, bitrate: 1536 kb/s
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #1:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: timestamp is deprecated, set the 'creation_time' metadata tag instead.
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Stream mapping:
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Press [q] to stop, [?] for help
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+Jibri 2026-06-10 13:45:40.969 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] profile Constrained Baseline, level 3.1, 4:2:0, 8-bit
+Jibri 2026-06-10 13:45:41.476 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Output #0, mp4, to '/recordings/5bba7b09-df34-4fa8-bd73-b3b504f61db3/asd_2026-06-10-13-45-36.mp4':
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Metadata:
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:     creation_time   : 2026-06-10T13:45:40+0000
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:     encoder         : Lavf59.27.100
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1280x720, q=2-31, 30 fps, 15360 tbn
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:     Metadata:
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:       encoder         : Lavc59.37.100 libx264
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:     Side data:
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:   Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:     Metadata:
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61:       encoder         : Lavc59.37.100 aac
+Jibri 2026-06-10 13:45:41.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+Jibri 2026-06-10 13:45:42.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=   35 fps=0.0 q=15.0 size=       0kB time=00:00:00.55 bitrate=   0.7kbits/s speed=0.915x    
+Jibri 2026-06-10 13:45:42.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=   50 fps= 45 q=15.0 size=       0kB time=00:00:01.06 bitrate=   0.4kbits/s speed=0.962x    
+Jibri 2026-06-10 13:45:43.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=   66 fps= 41 q=15.0 size=       0kB time=00:00:01.53 bitrate=   0.3kbits/s speed=0.947x    
+Jibri 2026-06-10 13:45:43.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=   81 fps= 38 q=15.0 size=       0kB time=00:00:02.04 bitrate=   0.2kbits/s speed=0.961x    
+Jibri 2026-06-10 13:45:44.477 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=   96 fps= 36 q=15.0 size=       0kB time=00:00:02.60 bitrate=   0.1kbits/s speed=0.987x    
+Jibri 2026-06-10 13:45:44.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  111 fps= 35 q=15.0 size=       0kB time=00:00:03.06 bitrate=   0.1kbits/s speed=0.975x    
+Jibri 2026-06-10 13:45:45.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  127 fps= 35 q=15.0 size=       0kB time=00:00:03.57 bitrate=   0.1kbits/s speed=0.979x    
+Jibri 2026-06-10 13:45:45.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  142 fps= 34 q=15.0 size=       0kB time=00:00:04.08 bitrate=   0.1kbits/s speed=0.982x    
+Jibri 2026-06-10 13:45:46.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  157 fps= 34 q=15.0 size=       0kB time=00:00:04.59 bitrate=   0.1kbits/s speed=0.985x    
+Jibri 2026-06-10 13:45:46.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  172 fps= 33 q=15.0 size=       0kB time=00:00:05.10 bitrate=   0.1kbits/s speed=0.987x    
+Jibri 2026-06-10 13:45:47.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  187 fps= 33 q=15.0 size=       0kB time=00:00:05.59 bitrate=   0.1kbits/s speed=0.985x    
+Jibri 2026-06-10 13:45:47.478 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  203 fps= 33 q=15.0 size=       0kB time=00:00:06.10 bitrate=   0.1kbits/s speed=0.986x    
+Jibri 2026-06-10 13:45:48.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  218 fps= 33 q=15.0 size=       0kB time=00:00:06.66 bitrate=   0.1kbits/s speed=0.995x    
+Jibri 2026-06-10 13:45:48.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  233 fps= 32 q=15.0 size=       0kB time=00:00:07.12 bitrate=   0.1kbits/s speed=0.989x    
+Jibri 2026-06-10 13:45:49.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  248 fps= 32 q=15.0 size=       0kB time=00:00:07.63 bitrate=   0.1kbits/s speed=0.991x    
+Jibri 2026-06-10 13:45:49.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  264 fps= 32 q=15.0 size=       0kB time=00:00:08.15 bitrate=   0.0kbits/s speed=0.991x    
+Jibri 2026-06-10 13:45:50.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  279 fps= 32 q=15.0 size=       0kB time=00:00:08.66 bitrate=   0.0kbits/s speed=0.992x    
+Jibri 2026-06-10 13:45:50.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  294 fps= 32 q=15.0 size=       0kB time=00:00:09.17 bitrate=   0.0kbits/s speed=0.993x    
+Jibri 2026-06-10 13:45:51.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  309 fps= 32 q=15.0 size=       0kB time=00:00:09.68 bitrate=   0.0kbits/s speed=0.994x    
+Jibri 2026-06-10 13:45:51.479 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  324 fps= 32 q=15.0 size=       0kB time=00:00:10.19 bitrate=   0.0kbits/s speed=0.995x    
+Jibri 2026-06-10 13:45:52.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  340 fps= 32 q=15.0 size=       0kB time=00:00:10.66 bitrate=   0.0kbits/s speed=0.992x    
+Jibri 2026-06-10 13:45:52.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  355 fps= 32 q=15.0 size=       0kB time=00:00:11.21 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:45:53.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  370 fps= 31 q=15.0 size=       0kB time=00:00:11.72 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:45:53.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  385 fps= 31 q=15.0 size=       0kB time=00:00:12.19 bitrate=   0.0kbits/s speed=0.993x    
+Jibri 2026-06-10 13:45:54.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  401 fps= 31 q=15.0 size=       0kB time=00:00:12.70 bitrate=   0.0kbits/s speed=0.993x    
+Jibri 2026-06-10 13:45:54.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  416 fps= 31 q=15.0 size=       0kB time=00:00:13.21 bitrate=   0.0kbits/s speed=0.994x    
+Jibri 2026-06-10 13:45:55.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  431 fps= 31 q=15.0 size=       0kB time=00:00:13.76 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:45:55.480 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  446 fps= 31 q=15.0 size=       0kB time=00:00:14.23 bitrate=   0.0kbits/s speed=0.995x    
+Jibri 2026-06-10 13:45:56.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  461 fps= 31 q=15.0 size=       0kB time=00:00:14.74 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:45:56.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  476 fps= 31 q=15.0 size=       0kB time=00:00:15.25 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:45:57.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  492 fps= 31 q=15.0 size=       0kB time=00:00:15.76 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:45:57.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  507 fps= 31 q=16.0 size=       0kB time=00:00:16.27 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:45:58.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  522 fps= 31 q=15.0 size=       0kB time=00:00:16.78 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:45:58.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  537 fps= 31 q=15.0 size=       0kB time=00:00:17.29 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:45:59.481 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  553 fps= 31 q=15.0 size=       0kB time=00:00:17.76 bitrate=   0.0kbits/s speed=0.995x    
+Jibri 2026-06-10 13:45:59.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  568 fps= 31 q=15.0 size=       0kB time=00:00:18.27 bitrate=   0.0kbits/s speed=0.995x    
+Jibri 2026-06-10 13:46:00.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  583 fps= 31 q=15.0 size=       0kB time=00:00:18.83 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:00.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  598 fps= 31 q=15.0 size=       0kB time=00:00:19.29 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:46:01.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  613 fps= 31 q=15.0 size=       0kB time=00:00:19.80 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:46:01.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  629 fps= 31 q=15.0 size=       0kB time=00:00:20.31 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:46:02.482 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  644 fps= 31 q=15.0 size=       0kB time=00:00:20.82 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:02.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  659 fps= 31 q=15.0 size=       0kB time=00:00:21.33 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:03.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  674 fps= 31 q=15.0 size=       0kB time=00:00:21.82 bitrate=   0.0kbits/s speed=0.996x    
+Jibri 2026-06-10 13:46:03.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  689 fps= 31 q=15.0 size=       0kB time=00:00:22.33 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:04.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  705 fps= 31 q=15.0 size=       0kB time=00:00:22.84 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:04.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  720 fps= 31 q=15.0 size=       0kB time=00:00:23.38 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:05.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  735 fps= 31 q=15.0 size=       0kB time=00:00:23.89 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:05.483 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  750 fps= 31 q=15.0 size=       0kB time=00:00:24.38 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:06.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  765 fps= 31 q=15.0 size=       0kB time=00:00:24.89 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:06.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  781 fps= 31 q=15.0 size=       0kB time=00:00:25.37 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:07.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  796 fps= 31 q=15.0 size=       0kB time=00:00:25.89 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:07.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  811 fps= 31 q=15.0 size=       0kB time=00:00:26.44 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:08.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  826 fps= 31 q=15.0 size=       0kB time=00:00:26.93 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:08.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  842 fps= 31 q=15.0 size=       0kB time=00:00:27.44 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:09.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  857 fps= 31 q=15.0 size=       0kB time=00:00:27.93 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:09.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  872 fps= 31 q=15.0 size=       0kB time=00:00:28.44 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:10.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  887 fps= 31 q=15.0 size=       0kB time=00:00:28.93 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:10.484 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  902 fps= 31 q=15.0 size=       0kB time=00:00:29.44 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:11.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  917 fps= 31 q=15.0 size=       0kB time=00:00:29.93 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:11.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  933 fps= 31 q=15.0 size=       0kB time=00:00:30.44 bitrate=   0.0kbits/s speed=0.997x    
+Jibri 2026-06-10 13:46:12.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  948 fps= 31 q=15.0 size=       0kB time=00:00:30.97 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:12.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  963 fps= 31 q=15.0 size=       0kB time=00:00:31.48 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:13.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  978 fps= 31 q=15.0 size=       0kB time=00:00:31.99 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:13.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=  993 fps= 31 q=15.0 size=       0kB time=00:00:32.48 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:14.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1009 fps= 31 q=15.0 size=       0kB time=00:00:32.99 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:14.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1024 fps= 31 q=15.0 size=       0kB time=00:00:33.52 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:15.485 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1039 fps= 30 q=15.0 size=       0kB time=00:00:33.99 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:15.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1054 fps= 30 q=15.0 size=       0kB time=00:00:34.52 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:16.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1070 fps= 30 q=15.0 size=       0kB time=00:00:35.00 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:16.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1085 fps= 30 q=15.0 size=       0kB time=00:00:35.52 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:17.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1100 fps= 30 q=15.0 size=       0kB time=00:00:36.03 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:17.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1115 fps= 30 q=15.0 size=       0kB time=00:00:36.54 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:18.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1130 fps= 30 q=15.0 size=       0kB time=00:00:37.03 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:19.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1146 fps= 30 q=15.0 size=       0kB time=00:00:37.54 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:19.486 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1161 fps= 30 q=15.0 size=       0kB time=00:00:38.08 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:20.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1176 fps= 30 q=15.0 size=       0kB time=00:00:38.59 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:20.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1191 fps= 30 q=15.0 size=       0kB time=00:00:39.07 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:21.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1207 fps= 30 q=15.0 size=       0kB time=00:00:39.59 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:21.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1222 fps= 30 q=15.0 size=       0kB time=00:00:40.14 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:46:22.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1237 fps= 30 q=15.0 size=       0kB time=00:00:40.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:22.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1252 fps= 30 q=15.0 size=       0kB time=00:00:41.14 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:23.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1267 fps= 30 q=15.0 size=       0kB time=00:00:41.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:23.487 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1283 fps= 30 q=15.0 size=       0kB time=00:00:42.10 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:24.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1298 fps= 30 q=15.0 size=       0kB time=00:00:42.63 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:24.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1313 fps= 30 q=15.0 size=       0kB time=00:00:43.14 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:25.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1328 fps= 30 q=15.0 size=       0kB time=00:00:43.63 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:25.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1344 fps= 30 q=15.0 size=       0kB time=00:00:44.14 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:26.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1359 fps= 30 q=15.0 size=       0kB time=00:00:44.69 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:26.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1374 fps= 30 q=15.0 size=       0kB time=00:00:45.18 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:27.488 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1389 fps= 30 q=15.0 size=       0kB time=00:00:45.69 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:27.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1405 fps= 30 q=15.0 size=       0kB time=00:00:46.18 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:28.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1420 fps= 30 q=15.0 size=       0kB time=00:00:46.69 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:28.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1435 fps= 30 q=15.0 size=       0kB time=00:00:47.22 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:29.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1450 fps= 30 q=15.0 size=       0kB time=00:00:47.69 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:29.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1465 fps= 30 q=15.0 size=       0kB time=00:00:48.22 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:30.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1481 fps= 30 q=15.0 size=       0kB time=00:00:48.70 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:30.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1496 fps= 30 q=15.0 size=       0kB time=00:00:49.22 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:31.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1511 fps= 30 q=15.0 size=       0kB time=00:00:49.73 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:31.489 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1526 fps= 30 q=15.0 size=       0kB time=00:00:50.24 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:32.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1541 fps= 30 q=15.0 size=       0kB time=00:00:50.73 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:32.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1556 fps= 30 q=15.0 size=       0kB time=00:00:51.24 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:33.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1571 fps= 30 q=15.0 size=       0kB time=00:00:51.73 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:33.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1586 fps= 30 q=15.0 size=       0kB time=00:00:52.24 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:34.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1601 fps= 30 q=15.0 size=       0kB time=00:00:52.73 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:34.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1617 fps= 30 q=15.0 size=       0kB time=00:00:53.24 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:35.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1632 fps= 30 q=15.0 size=       0kB time=00:00:53.73 bitrate=   0.0kbits/s speed=0.998x    
+Jibri 2026-06-10 13:46:35.490 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1647 fps= 30 q=15.0 size=       0kB time=00:00:54.28 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:36.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1662 fps= 30 q=15.0 size=       0kB time=00:00:54.77 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:36.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1677 fps= 30 q=15.0 size=       0kB time=00:00:55.28 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:37.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1693 fps= 30 q=15.0 size=       0kB time=00:00:55.79 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:37.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1708 fps= 30 q=15.0 size=       0kB time=00:00:56.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:38.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1723 fps= 30 q=15.0 size=       0kB time=00:00:56.79 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:38.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1738 fps= 30 q=15.0 size=       0kB time=00:00:57.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:39.491 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1754 fps= 30 q=19.0 size=       0kB time=00:00:57.80 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:39.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1769 fps= 30 q=15.0 size=       0kB time=00:00:58.32 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:40.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1784 fps= 30 q=15.0 size=       0kB time=00:00:58.83 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:40.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1799 fps= 30 q=15.0 size=       0kB time=00:00:59.32 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:41.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1814 fps= 30 q=15.0 size=       0kB time=00:00:59.83 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:41.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1830 fps= 30 q=15.0 size=       0kB time=00:01:00.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:42.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1845 fps= 30 q=15.0 size=       0kB time=00:01:00.88 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:42.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1860 fps= 30 q=15.0 size=       0kB time=00:01:01.39 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:43.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1875 fps= 30 q=15.0 size=       0kB time=00:01:01.88 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:43.492 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1890 fps= 30 q=15.0 size=       0kB time=00:01:02.39 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:44.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1905 fps= 30 q=15.0 size=       0kB time=00:01:02.87 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:44.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1921 fps= 30 q=15.0 size=       0kB time=00:01:03.39 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:45.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1936 fps= 30 q=15.0 size=       0kB time=00:01:03.94 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:46:45.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1951 fps= 30 q=15.0 size=       0kB time=00:01:04.43 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:46.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1966 fps= 30 q=15.0 size=       0kB time=00:01:04.94 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:46.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1982 fps= 30 q=15.0 size=       0kB time=00:01:05.43 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:47.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 1997 fps= 30 q=15.0 size=       0kB time=00:01:05.94 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:47.493 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2012 fps= 30 q=15.0 size=       0kB time=00:01:06.43 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:48.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2027 fps= 30 q=15.0 size=       0kB time=00:01:06.94 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:48.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2042 fps= 30 q=15.0 size=       0kB time=00:01:07.43 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:49.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2057 fps= 30 q=15.0 size=       0kB time=00:01:07.94 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:49.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2072 fps= 30 q=15.0 size=       0kB time=00:01:08.42 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:50.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2088 fps= 30 q=15.0 size=       0kB time=00:01:08.94 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:50.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2103 fps= 30 q=15.0 size=       0kB time=00:01:09.49 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:46:51.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2118 fps= 30 q=15.0 size=       0kB time=00:01:09.98 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:51.494 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2133 fps= 30 q=15.0 size=       0kB time=00:01:10.49 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:52.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2149 fps= 30 q=15.0 size=       0kB time=00:01:10.98 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:52.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2164 fps= 30 q=15.0 size=       0kB time=00:01:11.49 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:53.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2179 fps= 30 q=15.0 size=       0kB time=00:01:12.02 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:46:53.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2194 fps= 30 q=15.0 size=       0kB time=00:01:12.49 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:54.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2209 fps= 30 q=15.0 size=       0kB time=00:01:13.02 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:54.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2224 fps= 30 q=15.0 size=       0kB time=00:01:13.49 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:55.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2240 fps= 30 q=15.0 size=       0kB time=00:01:14.04 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:55.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2255 fps= 30 q=17.0 size=       0kB time=00:01:14.53 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:56.495 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2270 fps= 30 q=15.0 size=       0kB time=00:01:15.04 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:56.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2285 fps= 30 q=15.0 size=       0kB time=00:01:15.53 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:57.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2301 fps= 30 q=15.0 size=       0kB time=00:01:16.04 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:57.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2316 fps= 30 q=15.0 size=       0kB time=00:01:16.57 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:58.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2331 fps= 30 q=15.0 size=       0kB time=00:01:17.09 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:59.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2346 fps= 30 q=15.0 size=       0kB time=00:01:17.57 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:46:59.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2362 fps= 30 q=15.0 size=       0kB time=00:01:18.08 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:00.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2377 fps= 30 q=15.0 size=       0kB time=00:01:18.64 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:00.496 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2392 fps= 30 q=15.0 size=       0kB time=00:01:19.13 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:01.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2407 fps= 30 q=15.0 size=       0kB time=00:01:19.59 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:01.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2422 fps= 30 q=15.0 size=       0kB time=00:01:20.13 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:02.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2438 fps= 30 q=15.0 size=       0kB time=00:01:20.60 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:02.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2453 fps= 30 q=15.0 size=       0kB time=00:01:21.13 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:03.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2468 fps= 30 q=15.0 size=       0kB time=00:01:21.64 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:03.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2483 fps= 30 q=15.0 size=       0kB time=00:01:22.12 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:04.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2498 fps= 30 q=15.0 size=       0kB time=00:01:22.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:04.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2513 fps= 30 q=15.0 size=       0kB time=00:01:23.12 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:05.497 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2528 fps= 30 q=15.0 size=       0kB time=00:01:23.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:05.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2544 fps= 30 q=15.0 size=       0kB time=00:01:24.13 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:06.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2559 fps= 30 q=15.0 size=       0kB time=00:01:24.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:06.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2574 fps= 30 q=15.0 size=       0kB time=00:01:25.19 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:07.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2589 fps= 30 q=15.0 size=       0kB time=00:01:25.68 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:07.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2604 fps= 30 q=15.0 size=       0kB time=00:01:26.19 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:08.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2620 fps= 30 q=15.0 size=       0kB time=00:01:26.68 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:08.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2635 fps= 30 q=15.0 size=       0kB time=00:01:27.19 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:09.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2650 fps= 30 q=15.0 size=       0kB time=00:01:27.74 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:09.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2665 fps= 30 q=15.0 size=       0kB time=00:01:28.23 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:10.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2681 fps= 30 q=15.0 size=       0kB time=00:01:28.74 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:10.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2696 fps= 30 q=15.0 size=       0kB time=00:01:29.23 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:11.498 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2711 fps= 30 q=15.0 size=       0kB time=00:01:29.74 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:11.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2726 fps= 30 q=15.0 size=       0kB time=00:01:30.23 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:12.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2742 fps= 30 q=15.0 size=       0kB time=00:01:30.74 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:12.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2757 fps= 30 q=16.0 size=       0kB time=00:01:31.27 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:13.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2772 fps= 30 q=15.0 size=       0kB time=00:01:31.78 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:13.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2787 fps= 30 q=15.0 size=       0kB time=00:01:32.27 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:14.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2802 fps= 30 q=15.0 size=       0kB time=00:01:32.78 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:14.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2818 fps= 30 q=15.0 size=       0kB time=00:01:33.29 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:15.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2833 fps= 30 q=15.0 size=       0kB time=00:01:33.83 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:15.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2848 fps= 30 q=15.0 size=       0kB time=00:01:34.29 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:16.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2863 fps= 30 q=15.0 size=       0kB time=00:01:34.83 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:16.499 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2878 fps= 30 q=15.0 size=       0kB time=00:01:35.29 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:17.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2894 fps= 30 q=15.0 size=       0kB time=00:01:35.82 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:17.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2909 fps= 30 q=15.0 size=       0kB time=00:01:36.30 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:18.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2924 fps= 30 q=15.0 size=       0kB time=00:01:36.82 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:18.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2939 fps= 30 q=15.0 size=       0kB time=00:01:37.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:19.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2954 fps= 30 q=15.0 size=       0kB time=00:01:37.82 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:19.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2970 fps= 30 q=15.0 size=       0kB time=00:01:38.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:20.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 2985 fps= 30 q=15.0 size=       0kB time=00:01:38.89 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:20.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3000 fps= 30 q=15.0 size=       0kB time=00:01:39.38 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:21.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3015 fps= 30 q=15.0 size=       0kB time=00:01:39.89 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:21.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3031 fps= 30 q=15.0 size=       0kB time=00:01:40.37 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:22.500 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3046 fps= 30 q=15.0 size=       0kB time=00:01:40.89 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:22.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3061 fps= 30 q=15.0 size=       0kB time=00:01:41.44 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:23.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3076 fps= 30 q=15.0 size=       0kB time=00:01:41.93 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:23.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3091 fps= 30 q=15.0 size=       0kB time=00:01:42.44 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:24.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3107 fps= 30 q=15.0 size=       0kB time=00:01:42.93 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:24.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3122 fps= 30 q=15.0 size=       0kB time=00:01:43.40 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:25.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3137 fps= 30 q=15.0 size=       0kB time=00:01:43.93 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:25.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3152 fps= 30 q=15.0 size=       0kB time=00:01:44.44 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:26.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3167 fps= 30 q=15.0 size=       0kB time=00:01:44.93 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:26.501 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3183 fps= 30 q=15.0 size=       0kB time=00:01:45.44 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:27.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3198 fps= 30 q=15.0 size=       0kB time=00:01:45.97 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:27.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3213 fps= 30 q=15.0 size=       0kB time=00:01:46.48 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:28.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3228 fps= 30 q=15.0 size=       0kB time=00:01:46.99 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:28.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3244 fps= 30 q=15.0 size=       0kB time=00:01:47.48 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:29.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3259 fps= 30 q=15.0 size=       0kB time=00:01:47.99 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:29.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3274 fps= 30 q=15.0 size=       0kB time=00:01:48.53 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:30.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3289 fps= 30 q=15.0 size=       0kB time=00:01:48.99 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:30.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3305 fps= 30 q=15.0 size=       0kB time=00:01:49.52 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:31.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3320 fps= 30 q=15.0 size=       0kB time=00:01:50.00 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:31.502 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3335 fps= 30 q=15.0 size=       0kB time=00:01:50.52 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:32.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3350 fps= 30 q=15.0 size=       0kB time=00:01:51.03 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:32.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3365 fps= 30 q=15.0 size=       0kB time=00:01:51.52 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:33.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3381 fps= 30 q=15.0 size=       0kB time=00:01:52.03 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:33.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3396 fps= 30 q=15.0 size=       0kB time=00:01:52.54 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:34.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3411 fps= 30 q=15.0 size=       0kB time=00:01:53.08 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:35.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3426 fps= 30 q=15.0 size=       0kB time=00:01:53.59 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:35.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3441 fps= 30 q=15.0 size=       0kB time=00:01:54.07 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:36.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3457 fps= 30 q=15.0 size=       0kB time=00:01:54.59 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:36.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3472 fps= 30 q=15.0 size=       0kB time=00:01:55.14 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:37.503 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3487 fps= 30 q=15.0 size=       0kB time=00:01:55.63 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:37.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3502 fps= 30 q=15.0 size=       0kB time=00:01:56.14 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:38.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3518 fps= 30 q=15.0 size=       0kB time=00:01:56.63 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:38.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3533 fps= 30 q=15.0 size=       0kB time=00:01:57.10 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:39.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3548 fps= 30 q=15.0 size=       0kB time=00:01:57.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:39.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3563 fps= 30 q=15.0 size=       0kB time=00:01:58.14 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:40.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3578 fps= 30 q=15.0 size=       0kB time=00:01:58.63 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:40.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3594 fps= 30 q=15.0 size=       0kB time=00:01:59.14 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:41.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3609 fps= 30 q=15.0 size=       0kB time=00:01:59.67 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:41.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3624 fps= 30 q=15.0 size=       0kB time=00:02:00.18 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:42.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3639 fps= 30 q=15.0 size=       0kB time=00:02:00.69 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:42.504 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3654 fps= 30 q=15.0 size=       0kB time=00:02:01.18 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:43.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3670 fps= 30 q=15.0 size=       0kB time=00:02:01.69 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:43.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3685 fps= 30 q=15.0 size=       0kB time=00:02:02.22 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:44.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3700 fps= 30 q=15.0 size=       0kB time=00:02:02.69 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:44.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3715 fps= 30 q=15.0 size=       0kB time=00:02:03.22 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:45.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3731 fps= 30 q=15.0 size=       0kB time=00:02:03.70 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:45.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3746 fps= 30 q=15.0 size=       0kB time=00:02:04.22 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:46.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3761 fps= 30 q=15.0 size=       0kB time=00:02:04.73 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:46.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3776 fps= 30 q=15.0 size=       0kB time=00:02:05.24 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:47.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3791 fps= 30 q=15.0 size=       0kB time=00:02:05.73 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:47.505 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3807 fps= 30 q=15.0 size=       0kB time=00:02:06.24 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:48.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3822 fps= 30 q=15.0 size=       0kB time=00:02:06.73 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:48.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3837 fps= 30 q=15.0 size=       0kB time=00:02:07.29 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:49.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3852 fps= 30 q=15.0 size=       0kB time=00:02:07.77 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:49.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3867 fps= 30 q=15.0 size=       0kB time=00:02:08.29 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:50.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3883 fps= 30 q=15.0 size=       0kB time=00:02:08.77 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:50.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3898 fps= 30 q=15.0 size=       0kB time=00:02:09.33 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:51.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3913 fps= 30 q=15.0 size=       0kB time=00:02:09.84 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:51.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3928 fps= 30 q=15.0 size=       0kB time=00:02:10.33 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:52.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3943 fps= 30 q=15.0 size=       0kB time=00:02:10.79 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:52.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3959 fps= 30 q=15.0 size=       0kB time=00:02:11.33 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:53.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3974 fps= 30 q=15.0 size=       0kB time=00:02:11.84 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:53.506 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 3989 fps= 30 q=15.0 size=       0kB time=00:02:12.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:54.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4004 fps= 30 q=19.0 size=       0kB time=00:02:12.84 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:54.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4019 fps= 30 q=15.0 size=       0kB time=00:02:13.32 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:55.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4035 fps= 30 q=15.0 size=       0kB time=00:02:13.83 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:55.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4050 fps= 30 q=15.0 size=       0kB time=00:02:14.33 bitrate=   0.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:56.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4065 fps= 30 q=15.0 size=       0kB time=00:02:14.88 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:56.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4080 fps= 30 q=15.0 size=       0kB time=00:02:15.39 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:57.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4095 fps= 30 q=15.0 size=       0kB time=00:02:15.88 bitrate=   0.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:57.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4111 fps= 30 q=15.0 size=     256kB time=00:02:16.39 bitrate=  15.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:58.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4126 fps= 30 q=15.0 size=     256kB time=00:02:16.88 bitrate=  15.3kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:58.507 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4141 fps= 30 q=15.0 size=     256kB time=00:02:17.39 bitrate=  15.3kbits/s speed=0.999x    
+Jibri 2026-06-10 13:47:59.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4156 fps= 30 q=15.0 size=     256kB time=00:02:17.92 bitrate=  15.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:47:59.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4171 fps= 30 q=15.0 size=     256kB time=00:02:18.39 bitrate=  15.2kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:00.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4187 fps= 30 q=15.0 size=     256kB time=00:02:18.94 bitrate=  15.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:00.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4202 fps= 30 q=15.0 size=     256kB time=00:02:19.43 bitrate=  15.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:01.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4217 fps= 30 q=15.0 size=     256kB time=00:02:19.94 bitrate=  15.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:01.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4232 fps= 30 q=15.0 size=     256kB time=00:02:20.43 bitrate=  14.9kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:02.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4248 fps= 30 q=15.0 size=     256kB time=00:02:20.94 bitrate=  14.9kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:02.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4263 fps= 30 q=15.0 size=     256kB time=00:02:21.47 bitrate=  14.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:03.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4278 fps= 30 q=15.0 size=     256kB time=00:02:21.99 bitrate=  14.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:03.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4293 fps= 30 q=15.0 size=     256kB time=00:02:22.47 bitrate=  14.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:04.508 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4309 fps= 30 q=15.0 size=     256kB time=00:02:22.98 bitrate=  14.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:04.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4324 fps= 30 q=15.0 size=     256kB time=00:02:23.47 bitrate=  14.6kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:05.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4339 fps= 30 q=15.0 size=     256kB time=00:02:24.03 bitrate=  14.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:05.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4354 fps= 30 q=15.0 size=     256kB time=00:02:24.49 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:06.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4369 fps= 30 q=15.0 size=     256kB time=00:02:25.03 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:06.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4385 fps= 30 q=15.0 size=     256kB time=00:02:25.50 bitrate=  14.4kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:07.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4400 fps= 30 q=15.0 size=     256kB time=00:02:26.03 bitrate=  14.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:07.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4415 fps= 30 q=15.0 size=     256kB time=00:02:26.54 bitrate=  14.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:08.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4430 fps= 30 q=15.0 size=     256kB time=00:02:27.02 bitrate=  14.3kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:08.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4445 fps= 30 q=15.0 size=     256kB time=00:02:27.53 bitrate=  14.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:09.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4461 fps= 30 q=15.0 size=     256kB time=00:02:28.03 bitrate=  14.2kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:09.509 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4476 fps= 30 q=15.0 size=     256kB time=00:02:28.53 bitrate=  14.1kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:10.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4491 fps= 30 q=15.0 size=     256kB time=00:02:29.09 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:10.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4506 fps= 30 q=16.0 size=     256kB time=00:02:29.58 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:11.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4521 fps= 30 q=15.0 size=     256kB time=00:02:30.09 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:12.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4537 fps= 30 q=15.0 size=     256kB time=00:02:30.58 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:12.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4552 fps= 30 q=15.0 size=     256kB time=00:02:31.09 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:13.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4567 fps= 30 q=15.0 size=     256kB time=00:02:31.62 bitrate=  13.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:13.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4583 fps= 30 q=15.0 size=     256kB time=00:02:32.10 bitrate=  13.8kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:14.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4598 fps= 30 q=15.0 size=     256kB time=00:02:32.64 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:14.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4613 fps= 30 q=15.0 size=     256kB time=00:02:33.13 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:15.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4628 fps= 30 q=15.0 size=     256kB time=00:02:33.64 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:15.510 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4643 fps= 30 q=15.0 size=     256kB time=00:02:34.13 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:16.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4659 fps= 30 q=15.0 size=     256kB time=00:02:34.64 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:16.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4674 fps= 30 q=15.0 size=     256kB time=00:02:35.13 bitrate=  13.5kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:17.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4689 fps= 30 q=15.0 size=     256kB time=00:02:35.68 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:17.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4704 fps= 30 q=15.0 size=     256kB time=00:02:36.17 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:18.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4719 fps= 30 q=15.0 size=     256kB time=00:02:36.68 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:18.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4735 fps= 30 q=15.0 size=     256kB time=00:02:37.17 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:19.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4750 fps= 30 q=15.0 size=     256kB time=00:02:37.68 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:19.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4765 fps= 30 q=15.0 size=     256kB time=00:02:38.19 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:20.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4780 fps= 30 q=15.0 size=     256kB time=00:02:38.73 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:20.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4795 fps= 30 q=15.0 size=     256kB time=00:02:39.19 bitrate=  13.2kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:21.511 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4811 fps= 30 q=15.0 size=     256kB time=00:02:39.73 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:21.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4826 fps= 30 q=15.0 size=     256kB time=00:02:40.20 bitrate=  13.1kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:22.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4841 fps= 30 q=15.0 size=     256kB time=00:02:40.72 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:22.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4856 fps= 30 q=15.0 size=     256kB time=00:02:41.23 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:23.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4871 fps= 30 q=15.0 size=     256kB time=00:02:41.72 bitrate=  13.0kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:23.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4887 fps= 30 q=15.0 size=     256kB time=00:02:42.23 bitrate=  12.9kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:24.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4902 fps= 30 q=15.0 size=     256kB time=00:02:42.79 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:24.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4917 fps= 30 q=15.0 size=     256kB time=00:02:43.28 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:25.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4932 fps= 30 q=15.0 size=     256kB time=00:02:43.79 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:25.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4947 fps= 30 q=15.0 size=     256kB time=00:02:44.28 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:26.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4963 fps= 30 q=15.0 size=     256kB time=00:02:44.79 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:26.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4978 fps= 30 q=15.0 size=     256kB time=00:02:45.32 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:27.512 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 4993 fps= 30 q=15.0 size=     256kB time=00:02:45.79 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:27.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5008 fps= 30 q=15.0 size=     256kB time=00:02:46.34 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:28.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5024 fps= 30 q=15.0 size=     256kB time=00:02:46.83 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:28.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5039 fps= 30 q=15.0 size=     256kB time=00:02:47.34 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:29.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5054 fps= 30 q=15.0 size=     256kB time=00:02:47.83 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:29.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5069 fps= 30 q=15.0 size=     256kB time=00:02:48.34 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:30.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5084 fps= 30 q=15.0 size=     256kB time=00:02:48.83 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:30.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5100 fps= 30 q=15.0 size=     256kB time=00:02:49.34 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:31.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5115 fps= 30 q=15.0 size=     256kB time=00:02:49.87 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:31.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5130 fps= 30 q=15.0 size=     256kB time=00:02:50.38 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:32.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5145 fps= 30 q=15.0 size=     256kB time=00:02:50.87 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:32.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5161 fps= 30 q=15.0 size=     256kB time=00:02:51.38 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:33.513 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5176 fps= 30 q=15.0 size=     256kB time=00:02:51.89 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:33.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5191 fps= 30 q=15.0 size=     256kB time=00:02:52.43 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:34.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5206 fps= 30 q=15.0 size=     256kB time=00:02:52.89 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:34.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5222 fps= 30 q=15.0 size=     256kB time=00:02:53.42 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:35.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5237 fps= 30 q=15.0 size=     256kB time=00:02:53.90 bitrate=  12.1kbits/s speed=0.999x    
+Jibri 2026-06-10 13:48:35.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5252 fps= 30 q=15.0 size=     256kB time=00:02:54.42 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:36.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5267 fps= 30 q=15.0 size=     256kB time=00:02:54.93 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:36.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5282 fps= 30 q=15.0 size=     256kB time=00:02:55.42 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:37.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5298 fps= 30 q=15.0 size=     256kB time=00:02:55.93 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:37.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5313 fps= 30 q=15.0 size=     256kB time=00:02:56.44 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:38.514 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5328 fps= 30 q=15.0 size=     256kB time=00:02:56.98 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:38.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5343 fps= 30 q=15.0 size=     256kB time=00:02:57.49 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:39.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5358 fps= 30 q=15.0 size=     256kB time=00:02:57.98 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:39.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5374 fps= 30 q=15.0 size=     256kB time=00:02:58.49 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:40.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5389 fps= 30 q=15.0 size=     256kB time=00:02:59.02 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:40.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5404 fps= 30 q=15.0 size=     256kB time=00:02:59.49 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:41.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5419 fps= 30 q=15.0 size=     256kB time=00:03:00.04 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:41.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5435 fps= 30 q=15.0 size=     256kB time=00:03:00.53 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:42.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5450 fps= 30 q=15.0 size=     256kB time=00:03:01.04 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:42.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5465 fps= 30 q=15.0 size=     256kB time=00:03:01.53 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:43.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5480 fps= 30 q=15.0 size=     256kB time=00:03:02.04 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:43.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5495 fps= 30 q=15.0 size=     256kB time=00:03:02.53 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:44.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5511 fps= 30 q=15.0 size=     256kB time=00:03:03.04 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:44.515 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5526 fps= 30 q=15.0 size=     256kB time=00:03:03.57 bitrate=  11.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:45.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5541 fps= 30 q=15.0 size=     256kB time=00:03:04.08 bitrate=  11.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:45.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5556 fps= 30 q=15.0 size=     256kB time=00:03:04.57 bitrate=  11.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:46.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5571 fps= 30 q=15.0 size=     256kB time=00:03:05.08 bitrate=  11.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:47.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5587 fps= 30 q=15.0 size=     256kB time=00:03:05.59 bitrate=  11.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:47.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5602 fps= 30 q=15.0 size=     256kB time=00:03:06.13 bitrate=  11.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:48.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5617 fps= 30 q=15.0 size=     256kB time=00:03:06.59 bitrate=  11.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:48.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5632 fps= 30 q=15.0 size=     256kB time=00:03:07.12 bitrate=  11.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:49.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5647 fps= 30 q=15.0 size=     256kB time=00:03:07.59 bitrate=  11.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:49.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5663 fps= 30 q=15.0 size=     256kB time=00:03:08.12 bitrate=  11.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:50.516 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5678 fps= 30 q=15.0 size=     256kB time=00:03:08.60 bitrate=  11.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:50.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5693 fps= 30 q=15.0 size=     256kB time=00:03:09.12 bitrate=  11.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:51.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5708 fps= 30 q=15.0 size=     256kB time=00:03:09.63 bitrate=  11.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:51.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5723 fps= 30 q=15.0 size=     256kB time=00:03:10.14 bitrate=  11.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:52.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5738 fps= 30 q=15.0 size=     256kB time=00:03:10.63 bitrate=  11.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:52.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5754 fps= 30 q=19.0 size=     256kB time=00:03:11.14 bitrate=  11.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:53.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5769 fps= 30 q=15.0 size=     256kB time=00:03:11.68 bitrate=  10.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:53.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5784 fps= 30 q=15.0 size=     256kB time=00:03:12.19 bitrate=  10.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:54.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5799 fps= 30 q=15.0 size=     256kB time=00:03:12.67 bitrate=  10.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:54.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5814 fps= 30 q=15.0 size=     256kB time=00:03:13.19 bitrate=  10.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:55.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5830 fps= 30 q=15.0 size=     256kB time=00:03:13.67 bitrate=  10.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:55.517 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5845 fps= 30 q=15.0 size=     256kB time=00:03:14.23 bitrate=  10.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:56.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5860 fps= 30 q=15.0 size=     256kB time=00:03:14.74 bitrate=  10.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:56.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5875 fps= 30 q=15.0 size=     256kB time=00:03:15.23 bitrate=  10.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:57.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5891 fps= 30 q=15.0 size=     256kB time=00:03:15.70 bitrate=  10.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:57.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5906 fps= 30 q=15.0 size=     256kB time=00:03:16.23 bitrate=  10.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:58.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5921 fps= 30 q=15.0 size=     256kB time=00:03:16.74 bitrate=  10.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:58.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5936 fps= 30 q=15.0 size=     256kB time=00:03:17.23 bitrate=  10.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:59.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5951 fps= 30 q=15.0 size=     256kB time=00:03:17.74 bitrate=  10.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:48:59.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5966 fps= 30 q=15.0 size=     256kB time=00:03:18.22 bitrate=  10.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:00.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5982 fps= 30 q=15.0 size=     256kB time=00:03:18.73 bitrate=  10.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:00.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 5997 fps= 30 q=15.0 size=     256kB time=00:03:19.29 bitrate=  10.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:01.518 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6012 fps= 30 q=15.0 size=     256kB time=00:03:19.78 bitrate=  10.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:01.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6027 fps= 30 q=15.0 size=     256kB time=00:03:20.29 bitrate=  10.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:02.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6043 fps= 30 q=15.0 size=     256kB time=00:03:20.78 bitrate=  10.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:02.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6058 fps= 30 q=15.0 size=     256kB time=00:03:21.29 bitrate=  10.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:03.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6073 fps= 30 q=15.0 size=     256kB time=00:03:21.82 bitrate=  10.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:03.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6088 fps= 30 q=15.0 size=     256kB time=00:03:22.29 bitrate=  10.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:04.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6104 fps= 30 q=15.0 size=     256kB time=00:03:22.82 bitrate=  10.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:04.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6119 fps= 30 q=15.0 size=     256kB time=00:03:23.30 bitrate=  10.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:05.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6134 fps= 30 q=15.0 size=     256kB time=00:03:23.84 bitrate=  10.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:05.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6149 fps= 30 q=15.0 size=     256kB time=00:03:24.33 bitrate=  10.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:06.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6164 fps= 30 q=15.0 size=     256kB time=00:03:24.84 bitrate=  10.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:06.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6180 fps= 30 q=15.0 size=     256kB time=00:03:25.33 bitrate=  10.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:07.519 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6195 fps= 30 q=15.0 size=     256kB time=00:03:25.89 bitrate=  10.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:07.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6210 fps= 30 q=15.0 size=     256kB time=00:03:26.37 bitrate=  10.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:08.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6225 fps= 30 q=15.0 size=     256kB time=00:03:26.88 bitrate=  10.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:08.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6240 fps= 30 q=15.0 size=     256kB time=00:03:27.37 bitrate=  10.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:09.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6255 fps= 30 q=17.0 size=     256kB time=00:03:27.88 bitrate=  10.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:09.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6271 fps= 30 q=15.0 size=     256kB time=00:03:28.37 bitrate=  10.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:10.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6286 fps= 30 q=15.0 size=     256kB time=00:03:28.93 bitrate=  10.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:10.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6301 fps= 30 q=15.0 size=     256kB time=00:03:29.39 bitrate=  10.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:11.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6316 fps= 30 q=15.0 size=     256kB time=00:03:29.93 bitrate=  10.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:11.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6332 fps= 30 q=15.0 size=     256kB time=00:03:30.40 bitrate=  10.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:12.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6347 fps= 30 q=15.0 size=     256kB time=00:03:30.93 bitrate=   9.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:12.520 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6362 fps= 30 q=15.0 size=     256kB time=00:03:31.44 bitrate=   9.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:13.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6377 fps= 30 q=15.0 size=     256kB time=00:03:31.92 bitrate=   9.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:13.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6393 fps= 30 q=15.0 size=     256kB time=00:03:32.43 bitrate=   9.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:14.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6408 fps= 30 q=15.0 size=     256kB time=00:03:32.93 bitrate=   9.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:14.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6423 fps= 30 q=15.0 size=     256kB time=00:03:33.48 bitrate=   9.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:15.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6438 fps= 30 q=15.0 size=     256kB time=00:03:33.99 bitrate=   9.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:15.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6453 fps= 30 q=15.0 size=     256kB time=00:03:34.48 bitrate=   9.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:16.521 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6469 fps= 30 q=15.0 size=     256kB time=00:03:34.99 bitrate=   9.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:16.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6484 fps= 30 q=15.0 size=     256kB time=00:03:35.48 bitrate=   9.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:17.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6499 fps= 30 q=15.0 size=     256kB time=00:03:35.99 bitrate=   9.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:17.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6514 fps= 30 q=15.0 size=     256kB time=00:03:36.52 bitrate=   9.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:18.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6529 fps= 30 q=15.0 size=     256kB time=00:03:36.99 bitrate=   9.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:18.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6544 fps= 30 q=15.0 size=     256kB time=00:03:37.54 bitrate=   9.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:19.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6559 fps= 30 q=15.0 size=     256kB time=00:03:38.03 bitrate=   9.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:19.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6575 fps= 30 q=15.0 size=     256kB time=00:03:38.54 bitrate=   9.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:20.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6590 fps= 30 q=15.0 size=     256kB time=00:03:39.03 bitrate=   9.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:20.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6605 fps= 30 q=15.0 size=     256kB time=00:03:39.54 bitrate=   9.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:21.522 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6620 fps= 30 q=15.0 size=     256kB time=00:03:40.03 bitrate=   9.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:21.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6636 fps= 30 q=15.0 size=     256kB time=00:03:40.54 bitrate=   9.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:22.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6651 fps= 30 q=15.0 size=     256kB time=00:03:41.07 bitrate=   9.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:22.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6666 fps= 30 q=15.0 size=     256kB time=00:03:41.58 bitrate=   9.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:23.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6681 fps= 30 q=15.0 size=     256kB time=00:03:42.07 bitrate=   9.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:24.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6697 fps= 30 q=15.0 size=     256kB time=00:03:42.58 bitrate=   9.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:24.523 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6712 fps= 30 q=15.0 size=     256kB time=00:03:43.09 bitrate=   9.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:25.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6727 fps= 30 q=15.0 size=     256kB time=00:03:43.58 bitrate=   9.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:25.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6742 fps= 30 q=15.0 size=     256kB time=00:03:44.09 bitrate=   9.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:26.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6757 fps= 30 q=16.0 size=     256kB time=00:03:44.62 bitrate=   9.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:26.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6772 fps= 30 q=15.0 size=     256kB time=00:03:45.09 bitrate=   9.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:27.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6787 fps= 30 q=15.0 size=     256kB time=00:03:45.62 bitrate=   9.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:27.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6803 fps= 30 q=15.0 size=     256kB time=00:03:46.10 bitrate=   9.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:28.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6818 fps= 30 q=15.0 size=     256kB time=00:03:46.62 bitrate=   9.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:28.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6833 fps= 30 q=15.0 size=     256kB time=00:03:47.13 bitrate=   9.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:29.524 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6848 fps= 30 q=15.0 size=     256kB time=00:03:47.64 bitrate=   9.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:29.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6863 fps= 30 q=15.0 size=     256kB time=00:03:48.13 bitrate=   9.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:30.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6879 fps= 30 q=15.0 size=     256kB time=00:03:48.64 bitrate=   9.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:30.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6894 fps= 30 q=15.0 size=     256kB time=00:03:49.13 bitrate=   9.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:31.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6909 fps= 30 q=15.0 size=     256kB time=00:03:49.69 bitrate=   9.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:31.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6924 fps= 30 q=15.0 size=     256kB time=00:03:50.17 bitrate=   9.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:32.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6939 fps= 30 q=15.0 size=     256kB time=00:03:50.69 bitrate=   9.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:32.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6955 fps= 30 q=15.0 size=     256kB time=00:03:51.17 bitrate=   9.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:33.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6970 fps= 30 q=15.0 size=     256kB time=00:03:51.68 bitrate=   9.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:33.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 6985 fps= 30 q=15.0 size=     256kB time=00:03:52.17 bitrate=   9.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:34.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7000 fps= 30 q=15.0 size=     256kB time=00:03:52.73 bitrate=   9.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:34.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7015 fps= 30 q=15.0 size=     256kB time=00:03:53.19 bitrate=   9.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:35.525 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7030 fps= 30 q=15.0 size=     256kB time=00:03:53.73 bitrate=   9.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:35.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7045 fps= 30 q=15.0 size=     256kB time=00:03:54.19 bitrate=   9.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:36.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7061 fps= 30 q=15.0 size=     256kB time=00:03:54.73 bitrate=   8.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:36.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7076 fps= 30 q=15.0 size=     256kB time=00:03:55.24 bitrate=   8.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:37.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7091 fps= 30 q=15.0 size=     256kB time=00:03:55.72 bitrate=   8.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:37.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7106 fps= 30 q=15.0 size=     256kB time=00:03:56.23 bitrate=   8.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:38.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7121 fps= 30 q=15.0 size=     256kB time=00:03:56.72 bitrate=   8.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:38.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7136 fps= 30 q=15.0 size=     256kB time=00:03:57.23 bitrate=   8.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:39.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7152 fps= 30 q=15.0 size=     256kB time=00:03:57.73 bitrate=   8.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:39.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7167 fps= 30 q=15.0 size=     256kB time=00:03:58.28 bitrate=   8.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:40.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7182 fps= 30 q=15.0 size=     256kB time=00:03:58.79 bitrate=   8.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:40.526 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7197 fps= 30 q=15.0 size=     256kB time=00:03:59.28 bitrate=   8.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:41.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7213 fps= 30 q=15.0 size=     256kB time=00:03:59.79 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:41.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7228 fps= 30 q=15.0 size=     256kB time=00:04:00.32 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:42.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7243 fps= 30 q=15.0 size=     256kB time=00:04:00.79 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:42.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7258 fps= 30 q=15.0 size=     256kB time=00:04:01.34 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:43.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7274 fps= 30 q=15.0 size=     256kB time=00:04:01.83 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:43.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7289 fps= 30 q=15.0 size=     256kB time=00:04:02.34 bitrate=   8.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:44.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7304 fps= 30 q=15.0 size=     256kB time=00:04:02.83 bitrate=   8.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:44.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7319 fps= 30 q=15.0 size=     256kB time=00:04:03.34 bitrate=   8.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:45.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7334 fps= 30 q=15.0 size=     256kB time=00:04:03.83 bitrate=   8.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:45.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7349 fps= 30 q=15.0 size=     256kB time=00:04:04.34 bitrate=   8.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:46.527 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7365 fps= 30 q=15.0 size=     256kB time=00:04:04.83 bitrate=   8.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:46.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7380 fps= 30 q=15.0 size=     256kB time=00:04:05.38 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:47.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7395 fps= 30 q=15.0 size=     256kB time=00:04:05.83 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:47.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7410 fps= 30 q=15.0 size=     256kB time=00:04:06.38 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:48.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7425 fps= 30 q=15.0 size=     256kB time=00:04:06.89 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:48.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7440 fps= 30 q=15.0 size=     256kB time=00:04:07.38 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:49.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7456 fps= 30 q=15.0 size=     256kB time=00:04:07.89 bitrate=   8.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:49.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7471 fps= 30 q=15.0 size=     256kB time=00:04:08.43 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:50.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7486 fps= 30 q=15.0 size=     256kB time=00:04:08.89 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:50.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7501 fps= 30 q=15.0 size=     256kB time=00:04:09.42 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:51.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7517 fps= 30 q=15.0 size=     256kB time=00:04:09.90 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:51.528 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7532 fps= 30 q=15.0 size=     256kB time=00:04:10.42 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:52.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7547 fps= 30 q=15.0 size=     256kB time=00:04:10.93 bitrate=   8.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:52.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7562 fps= 30 q=15.0 size=     256kB time=00:04:11.42 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:53.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7577 fps= 30 q=15.0 size=     256kB time=00:04:11.93 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:53.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7592 fps= 30 q=15.0 size=     256kB time=00:04:12.44 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:54.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7607 fps= 30 q=15.0 size=     256kB time=00:04:12.93 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:54.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7623 fps= 30 q=15.0 size=     256kB time=00:04:13.44 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:55.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7638 fps= 30 q=15.0 size=     256kB time=00:04:13.93 bitrate=   8.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:55.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7653 fps= 30 q=15.0 size=     256kB time=00:04:14.44 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:56.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7668 fps= 30 q=15.0 size=     256kB time=00:04:14.97 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:56.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7683 fps= 30 q=15.0 size=     256kB time=00:04:15.48 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:57.529 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7698 fps= 30 q=15.0 size=     256kB time=00:04:15.97 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:57.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7714 fps= 30 q=15.0 size=     256kB time=00:04:16.48 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:58.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7729 fps= 30 q=15.0 size=     256kB time=00:04:16.99 bitrate=   8.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:58.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7744 fps= 30 q=15.0 size=     256kB time=00:04:17.53 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:59.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7759 fps= 30 q=15.0 size=     256kB time=00:04:17.99 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:49:59.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7775 fps= 30 q=15.0 size=     256kB time=00:04:18.53 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:00.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7790 fps= 30 q=15.0 size=     256kB time=00:04:19.00 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:00.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7805 fps= 30 q=15.0 size=     256kB time=00:04:19.52 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:01.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7820 fps= 30 q=15.0 size=     256kB time=00:04:20.04 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:01.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7835 fps= 30 q=15.0 size=     256kB time=00:04:20.52 bitrate=   8.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:02.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7850 fps= 30 q=15.0 size=     256kB time=00:04:21.03 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:02.530 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7865 fps= 30 q=15.0 size=     256kB time=00:04:21.52 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:03.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7880 fps= 30 q=15.0 size=     256kB time=00:04:22.03 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:03.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7896 fps= 30 q=15.0 size=     256kB time=00:04:22.54 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:04.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7911 fps= 30 q=15.0 size=     256kB time=00:04:23.08 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:04.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7926 fps= 30 q=15.0 size=     256kB time=00:04:23.59 bitrate=   8.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:05.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7941 fps= 30 q=15.0 size=     256kB time=00:04:24.08 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:05.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7956 fps= 30 q=15.0 size=     256kB time=00:04:24.59 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:06.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7972 fps= 30 q=15.0 size=     256kB time=00:04:25.07 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:06.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 7987 fps= 30 q=15.0 size=     256kB time=00:04:25.63 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:07.531 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8002 fps= 30 q=15.0 size=     256kB time=00:04:26.14 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:08.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8017 fps= 30 q=15.0 size=     256kB time=00:04:26.63 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:08.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8032 fps= 30 q=15.0 size=     256kB time=00:04:27.14 bitrate=   7.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:09.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8048 fps= 30 q=15.0 size=     256kB time=00:04:27.63 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:09.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8063 fps= 30 q=15.0 size=     256kB time=00:04:28.10 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:10.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8078 fps= 30 q=15.0 size=     256kB time=00:04:28.63 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:10.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8093 fps= 30 q=15.0 size=     256kB time=00:04:29.14 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:11.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8108 fps= 30 q=15.0 size=     256kB time=00:04:29.63 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:11.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8124 fps= 30 q=15.0 size=     256kB time=00:04:30.14 bitrate=   7.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:12.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8139 fps= 30 q=15.0 size=     256kB time=00:04:30.69 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:12.532 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8154 fps= 30 q=15.0 size=     256kB time=00:04:31.18 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:13.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8169 fps= 30 q=15.0 size=     256kB time=00:04:31.69 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:13.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8185 fps= 30 q=15.0 size=     256kB time=00:04:32.18 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:14.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8200 fps= 30 q=15.0 size=     256kB time=00:04:32.69 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:14.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8215 fps= 30 q=15.0 size=     256kB time=00:04:33.22 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:15.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8230 fps= 30 q=15.0 size=     256kB time=00:04:33.69 bitrate=   7.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:15.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8245 fps= 30 q=15.0 size=     256kB time=00:04:34.22 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:16.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8261 fps= 30 q=15.0 size=     256kB time=00:04:34.70 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:16.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8276 fps= 30 q=15.0 size=     256kB time=00:04:35.22 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:17.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8291 fps= 30 q=15.0 size=     256kB time=00:04:35.73 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:17.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8306 fps= 30 q=15.0 size=     256kB time=00:04:36.24 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:18.533 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8321 fps= 30 q=15.0 size=     256kB time=00:04:36.73 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:18.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8337 fps= 30 q=15.0 size=     256kB time=00:04:37.24 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:19.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8352 fps= 30 q=15.0 size=     256kB time=00:04:37.78 bitrate=   7.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:19.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8367 fps= 30 q=15.0 size=     256kB time=00:04:38.29 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:20.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8382 fps= 30 q=15.0 size=     256kB time=00:04:38.77 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:20.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8398 fps= 30 q=15.0 size=     256kB time=00:04:39.28 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:21.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8413 fps= 30 q=15.0 size=     256kB time=00:04:39.77 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:21.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8428 fps= 30 q=15.0 size=     256kB time=00:04:40.33 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:22.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8443 fps= 30 q=15.0 size=     256kB time=00:04:40.84 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:22.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8458 fps= 30 q=15.0 size=     256kB time=00:04:41.33 bitrate=   7.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:23.534 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8474 fps= 30 q=15.0 size=     256kB time=00:04:41.80 bitrate=   7.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:23.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8489 fps= 30 q=15.0 size=     256kB time=00:04:42.33 bitrate=   7.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:24.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8504 fps= 30 q=19.0 size=     256kB time=00:04:42.84 bitrate=   7.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:24.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8519 fps= 30 q=15.0 size=     256kB time=00:04:43.32 bitrate=   7.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:25.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8535 fps= 30 q=15.0 size=     512kB time=00:04:43.84 bitrate=  14.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:25.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8550 fps= 30 q=15.0 size=     512kB time=00:04:44.33 bitrate=  14.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:26.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8565 fps= 30 q=15.0 size=     512kB time=00:04:44.88 bitrate=  14.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:26.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8580 fps= 30 q=15.0 size=     512kB time=00:04:45.39 bitrate=  14.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:27.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8595 fps= 30 q=15.0 size=     512kB time=00:04:45.88 bitrate=  14.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:27.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8611 fps= 30 q=15.0 size=     512kB time=00:04:46.39 bitrate=  14.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:28.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8626 fps= 30 q=15.0 size=     512kB time=00:04:46.92 bitrate=  14.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:28.535 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8641 fps= 30 q=15.0 size=     512kB time=00:04:47.39 bitrate=  14.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:29.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8656 fps= 30 q=15.0 size=     512kB time=00:04:47.92 bitrate=  14.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:29.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8671 fps= 30 q=15.0 size=     512kB time=00:04:48.39 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:30.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8686 fps= 30 q=15.0 size=     512kB time=00:04:48.92 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:30.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8702 fps= 30 q=15.0 size=     512kB time=00:04:49.40 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:31.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8717 fps= 30 q=15.0 size=     512kB time=00:04:49.94 bitrate=  14.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:31.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8732 fps= 30 q=15.0 size=     512kB time=00:04:50.43 bitrate=  14.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:32.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8747 fps= 30 q=15.0 size=     512kB time=00:04:50.94 bitrate=  14.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:32.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8762 fps= 30 q=15.0 size=     512kB time=00:04:51.43 bitrate=  14.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:33.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8777 fps= 30 q=15.0 size=     512kB time=00:04:51.94 bitrate=  14.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:33.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8793 fps= 30 q=15.0 size=     512kB time=00:04:52.43 bitrate=  14.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:34.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8808 fps= 30 q=15.0 size=     512kB time=00:04:52.94 bitrate=  14.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:34.536 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8823 fps= 30 q=15.0 size=     512kB time=00:04:53.47 bitrate=  14.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:35.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8838 fps= 30 q=15.0 size=     512kB time=00:04:53.98 bitrate=  14.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:35.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8853 fps= 30 q=15.0 size=     512kB time=00:04:54.47 bitrate=  14.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:36.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8868 fps= 30 q=15.0 size=     512kB time=00:04:54.98 bitrate=  14.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:36.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8884 fps= 30 q=15.0 size=     512kB time=00:04:55.49 bitrate=  14.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:37.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8899 fps= 30 q=15.0 size=     512kB time=00:04:56.03 bitrate=  14.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:37.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8914 fps= 30 q=15.0 size=     512kB time=00:04:56.49 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:38.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8929 fps= 30 q=15.0 size=     512kB time=00:04:57.02 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:38.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8945 fps= 30 q=15.0 size=     512kB time=00:04:57.50 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:39.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8960 fps= 30 q=15.0 size=     512kB time=00:04:58.02 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:39.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8975 fps= 30 q=15.0 size=     512kB time=00:04:58.53 bitrate=  14.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:40.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 8990 fps= 30 q=15.0 size=     512kB time=00:04:59.02 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:40.537 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9005 fps= 30 q=17.0 size=     512kB time=00:04:59.53 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:41.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9021 fps= 30 q=15.0 size=     512kB time=00:05:00.04 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:41.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9036 fps= 30 q=15.0 size=     512kB time=00:05:00.58 bitrate=  14.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:42.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9051 fps= 30 q=15.0 size=     512kB time=00:05:01.09 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:42.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9066 fps= 30 q=15.0 size=     512kB time=00:05:01.58 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:43.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9082 fps= 30 q=15.0 size=     512kB time=00:05:02.09 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:43.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9097 fps= 30 q=15.0 size=     512kB time=00:05:02.57 bitrate=  13.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:44.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9112 fps= 30 q=15.0 size=     512kB time=00:05:03.09 bitrate=  13.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:44.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9127 fps= 30 q=15.0 size=     512kB time=00:05:03.64 bitrate=  13.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:45.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9142 fps= 30 q=15.0 size=     512kB time=00:05:04.13 bitrate=  13.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:46.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9158 fps= 30 q=15.0 size=     512kB time=00:05:04.64 bitrate=  13.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:46.538 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9173 fps= 30 q=15.0 size=     512kB time=00:05:05.13 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:47.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9188 fps= 30 q=15.0 size=     512kB time=00:05:05.64 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:47.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9203 fps= 30 q=15.0 size=     512kB time=00:05:06.13 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:48.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9219 fps= 30 q=15.0 size=     512kB time=00:05:06.64 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:48.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9234 fps= 30 q=15.0 size=     512kB time=00:05:07.17 bitrate=  13.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:49.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9249 fps= 30 q=15.0 size=     512kB time=00:05:07.68 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:49.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9264 fps= 30 q=15.0 size=     512kB time=00:05:08.19 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:50.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9279 fps= 30 q=15.0 size=     512kB time=00:05:08.68 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:50.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9295 fps= 30 q=15.0 size=     512kB time=00:05:09.19 bitrate=  13.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:51.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9310 fps= 30 q=15.0 size=     512kB time=00:05:09.73 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:51.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9325 fps= 30 q=15.0 size=     512kB time=00:05:10.19 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:52.539 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9340 fps= 30 q=15.0 size=     512kB time=00:05:10.72 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:52.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9356 fps= 30 q=15.0 size=     512kB time=00:05:11.20 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:53.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9371 fps= 30 q=15.0 size=     512kB time=00:05:11.72 bitrate=  13.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:53.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9386 fps= 30 q=15.0 size=     512kB time=00:05:12.23 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:54.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9401 fps= 30 q=15.0 size=     512kB time=00:05:12.72 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:54.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9417 fps= 30 q=15.0 size=     512kB time=00:05:13.23 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:55.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9432 fps= 30 q=15.0 size=     512kB time=00:05:13.74 bitrate=  13.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:55.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9447 fps= 30 q=15.0 size=     512kB time=00:05:14.28 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:56.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9462 fps= 30 q=15.0 size=     512kB time=00:05:14.79 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:56.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9477 fps= 30 q=15.0 size=     512kB time=00:05:15.28 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:57.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9493 fps= 30 q=15.0 size=     512kB time=00:05:15.79 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:57.540 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9508 fps= 30 q=15.0 size=     512kB time=00:05:16.27 bitrate=  13.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:58.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9523 fps= 30 q=15.0 size=     512kB time=00:05:16.83 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:58.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9538 fps= 30 q=15.0 size=     512kB time=00:05:17.34 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:59.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9554 fps= 30 q=15.0 size=     512kB time=00:05:17.83 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:50:59.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9569 fps= 30 q=15.0 size=     512kB time=00:05:18.34 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:00.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9584 fps= 30 q=15.0 size=     512kB time=00:05:18.83 bitrate=  13.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:00.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9599 fps= 30 q=15.0 size=     512kB time=00:05:19.34 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:01.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9614 fps= 30 q=15.0 size=     512kB time=00:05:19.83 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:01.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9630 fps= 30 q=15.0 size=     512kB time=00:05:20.34 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:02.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9645 fps= 30 q=15.0 size=     512kB time=00:05:20.83 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:02.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9660 fps= 30 q=15.0 size=     512kB time=00:05:21.38 bitrate=  13.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:03.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9675 fps= 30 q=15.0 size=     512kB time=00:05:21.89 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:03.541 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9690 fps= 30 q=15.0 size=     512kB time=00:05:22.38 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:04.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9705 fps= 30 q=15.0 size=     512kB time=00:05:22.89 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:04.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9721 fps= 30 q=15.0 size=     512kB time=00:05:23.38 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:05.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9736 fps= 30 q=15.0 size=     512kB time=00:05:23.89 bitrate=  13.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:05.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9751 fps= 30 q=15.0 size=     512kB time=00:05:24.42 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:06.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9767 fps= 30 q=15.0 size=     512kB time=00:05:24.90 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:06.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9782 fps= 30 q=15.0 size=     512kB time=00:05:25.42 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:07.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9797 fps= 30 q=15.0 size=     512kB time=00:05:25.93 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:07.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9812 fps= 30 q=15.0 size=     512kB time=00:05:26.42 bitrate=  12.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:08.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9827 fps= 30 q=15.0 size=     512kB time=00:05:26.93 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:08.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9843 fps= 30 q=15.0 size=     512kB time=00:05:27.44 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:09.542 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9858 fps= 30 q=15.0 size=     512kB time=00:05:27.93 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:09.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9873 fps= 30 q=15.0 size=     512kB time=00:05:28.49 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:10.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9888 fps= 30 q=15.0 size=     512kB time=00:05:28.98 bitrate=  12.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:10.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9903 fps= 30 q=15.0 size=     512kB time=00:05:29.49 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:11.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9918 fps= 30 q=15.0 size=     512kB time=00:05:29.97 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:11.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9934 fps= 30 q=15.0 size=     512kB time=00:05:30.48 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:12.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9949 fps= 30 q=15.0 size=     512kB time=00:05:30.97 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:12.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9964 fps= 30 q=15.0 size=     512kB time=00:05:31.53 bitrate=  12.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:13.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9979 fps= 30 q=15.0 size=     512kB time=00:05:32.04 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:13.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame= 9994 fps= 30 q=15.0 size=     512kB time=00:05:32.53 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:14.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10010 fps= 30 q=15.0 size=     512kB time=00:05:33.00 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:14.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10025 fps= 30 q=15.0 size=     512kB time=00:05:33.53 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:15.543 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10040 fps= 30 q=15.0 size=     512kB time=00:05:34.04 bitrate=  12.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:15.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10055 fps= 30 q=15.0 size=     512kB time=00:05:34.52 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:16.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10070 fps= 30 q=15.0 size=     512kB time=00:05:35.04 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:16.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10086 fps= 30 q=15.0 size=     512kB time=00:05:35.53 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:17.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10101 fps= 30 q=15.0 size=     512kB time=00:05:36.08 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:17.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10116 fps= 30 q=15.0 size=     512kB time=00:05:36.59 bitrate=  12.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:18.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10131 fps= 30 q=15.0 size=     512kB time=00:05:37.08 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:18.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10147 fps= 30 q=15.0 size=     512kB time=00:05:37.59 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:19.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10162 fps= 30 q=15.0 size=     512kB time=00:05:38.08 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:19.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10177 fps= 30 q=15.0 size=     512kB time=00:05:38.59 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:20.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10192 fps= 30 q=15.0 size=     512kB time=00:05:39.12 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:20.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10207 fps= 30 q=15.0 size=     512kB time=00:05:39.59 bitrate=  12.4kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:21.544 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10223 fps= 30 q=15.0 size=     512kB time=00:05:40.12 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:22.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10238 fps= 30 q=15.0 size=     512kB time=00:05:40.60 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:22.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10253 fps= 30 q=12.0 size=     512kB time=00:05:41.14 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:23.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10268 fps= 30 q=15.0 size=     512kB time=00:05:41.63 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:23.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10283 fps= 30 q=15.0 size=     512kB time=00:05:42.14 bitrate=  12.3kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:24.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10299 fps= 30 q=15.0 size=     512kB time=00:05:42.63 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:24.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10314 fps= 30 q=15.0 size=     512kB time=00:05:43.19 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:25.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10329 fps= 30 q=15.0 size=     512kB time=00:05:43.67 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:25.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10344 fps= 30 q=15.0 size=     512kB time=00:05:44.18 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:26.545 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10359 fps= 30 q=15.0 size=     512kB time=00:05:44.67 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:26.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10375 fps= 30 q=15.0 size=     512kB time=00:05:45.18 bitrate=  12.2kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:27.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10390 fps= 30 q=15.0 size=     512kB time=00:05:45.67 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:27.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10405 fps= 30 q=15.0 size=     512kB time=00:05:46.23 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:28.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10420 fps= 30 q=15.0 size=     512kB time=00:05:46.69 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:28.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10435 fps= 30 q=15.0 size=     512kB time=00:05:47.23 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:29.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10451 fps= 30 q=15.0 size=     512kB time=00:05:47.70 bitrate=  12.1kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:29.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10466 fps= 30 q=15.0 size=     512kB time=00:05:48.22 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:30.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10481 fps= 30 q=15.0 size=     512kB time=00:05:48.74 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:30.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10496 fps= 30 q=15.0 size=     512kB time=00:05:49.22 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:31.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10511 fps= 30 q=15.0 size=     512kB time=00:05:49.73 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:31.546 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10527 fps= 30 q=15.0 size=     512kB time=00:05:50.23 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:32.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10542 fps= 30 q=15.0 size=     512kB time=00:05:50.73 bitrate=  12.0kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:32.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10557 fps= 30 q=15.0 size=     512kB time=00:05:51.29 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:33.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10572 fps= 30 q=15.0 size=     512kB time=00:05:51.78 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:33.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10587 fps= 30 q=15.0 size=     512kB time=00:05:52.29 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:34.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10603 fps= 30 q=15.0 size=     512kB time=00:05:52.78 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:34.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10618 fps= 30 q=15.0 size=     512kB time=00:05:53.29 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:35.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10633 fps= 30 q=15.0 size=     512kB time=00:05:53.82 bitrate=  11.9kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:35.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10648 fps= 30 q=15.0 size=     512kB time=00:05:54.29 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:36.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10664 fps= 30 q=15.0 size=     512kB time=00:05:54.84 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:36.547 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10679 fps= 30 q=15.0 size=     512kB time=00:05:55.33 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:37.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10694 fps= 30 q=15.0 size=     512kB time=00:05:55.84 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:37.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10709 fps= 30 q=15.0 size=     512kB time=00:05:56.33 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:38.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10724 fps= 30 q=15.0 size=     512kB time=00:05:56.84 bitrate=  11.8kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:38.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10740 fps= 30 q=15.0 size=     512kB time=00:05:57.33 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:39.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10755 fps= 30 q=17.0 size=     512kB time=00:05:57.84 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:39.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10770 fps= 30 q=15.0 size=     512kB time=00:05:58.37 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:40.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10785 fps= 30 q=15.0 size=     512kB time=00:05:58.88 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:40.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10800 fps= 30 q=15.0 size=     512kB time=00:05:59.39 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:41.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10815 fps= 30 q=15.0 size=     512kB time=00:05:59.88 bitrate=  11.7kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:41.548 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10831 fps= 30 q=15.0 size=     512kB time=00:06:00.39 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:42.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10846 fps= 30 q=15.0 size=     512kB time=00:06:00.88 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:42.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10861 fps= 30 q=15.0 size=     512kB time=00:06:01.39 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:43.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10876 fps= 30 q=15.0 size=     512kB time=00:06:01.92 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:43.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10892 fps= 30 q=15.0 size=     512kB time=00:06:02.40 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:44.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10907 fps= 30 q=15.0 size=     512kB time=00:06:02.92 bitrate=  11.6kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:44.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10922 fps= 30 q=15.0 size=     512kB time=00:06:03.43 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:45.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10937 fps= 30 q=15.0 size=     512kB time=00:06:03.92 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:45.549 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10953 fps= 30 q=15.0 size=     512kB time=00:06:04.43 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10968 fps= 30 q=15.0 size=     512kB time=00:06:04.94 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10983 fps= 30 q=15.0 size=     512kB time=00:06:05.48 bitrate=  11.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: frame=10983 fps= 30 q=-1.0 Lsize=     961kB time=00:06:06.06 bitrate=  21.5kbits/s speed=   1x    
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: video:556kB audio:102kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 46.175236%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] frame I:44    Avg QP:12.23  size:  9890
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] frame P:10939 Avg QP:15.03  size:    12
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] mb I  I16..4: 100.0%  0.0%  0.0%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:100.0%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] coded y,uvDC,uvAC intra: 2.2% 1.8% 1.7% inter: 0.0% 0.0% 0.0%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] i16 v,h,dc,p: 96%  1%  2%  0%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] i8c dc,h,v,p: 98%  1%  1%  0%
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [libx264 @ 0x559c56ae4bc0] kb/s:12.42
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: [aac @ 0x559c56ae66c0] Qavg: 65474.426
+Jibri 2026-06-10 13:51:46.473 INFO: [73] JibriSubprocess.launch$lambda$1$0#61: Exiting normally, received signal 2.

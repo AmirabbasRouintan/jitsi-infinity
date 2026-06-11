@@ -1,0 +1,18 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.14.1
+2 info using node@v26.2.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ixi_flower/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm list
+7 verbose argv "list" "--global" "--depth" "0"
+8 verbose logfile logs-max:10 dir:/home/ixi_flower/Documents/services/.npm-cache/_logs/2026-06-10T20_31_08_958Z-
+9 verbose logfile /home/ixi_flower/Documents/services/.npm-cache/_logs/2026-06-10T20_31_08_958Z-debug-0.log
+10 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+11 silly logfile done cleaning log files
+12 verbose cwd /home/ixi_flower/Documents/services
+13 verbose os Linux 7.0.10-arch1-1
+14 verbose node v26.2.0
+15 verbose npm  v11.14.1
+16 verbose exit 0
+17 info ok
