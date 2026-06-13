@@ -1,0 +1,75 @@
+# Jitsi Meet Torture - Load Testing with Selenium Grid
+#
+# This sets up a Selenium Grid with Chrome nodes for running
+# jitsi-meet-torture load tests against your Jitsi instance.
+#
+# Usage:
+#   1. Clone the torture repo: git clone https://github.com/jitsi/jitsi-meet-torture.git
+#   2. Start the grid: docker compose -f jitsi-meet-torture.yml up -d --scale chrome-node=4
+#   3. Run a test from the torture repo:
+#      ./scripts/malleus.sh \
+#        --conferences=1 \
+#        --participants=4 \
+#        --senders=2 \
+#        --audio-senders=2 \
+#        --duration=60 \
+#        --hub-url=http://selenium-hub:4444/wd/hub \
+#        --instance-url=https://185.206.92.19:8443/testroom
+#   4. Stop: docker compose -f jitsi-meet-torture.yml down
+
+services:
+    # Selenium Grid Hub - orchestrates the browser nodes
+    selenium-hub:
+        container_name: jitsi-torture-hub
+        image: selenium/hub:${SELENIUM_VERSION:-4.27}
+        restart: ${RESTART_POLICY:-unless-stopped}
+        ports:
+            - '${SELENIUM_HUB_PORT:-4444}:4444'
+        environment:
+            - SE_SESSION_REQUEST_TIMEOUT=${SE_SESSION_REQUEST_TIMEOUT:-300}
+            - SE_GRACE_PERIOD=${SE_GRACE_PERIOD:-5}
+            - SE_VIDEO_RECORDING_ENABLED=false
+            - TZ=${TZ:-UTC}
+        networks:
+            meet.jitsi:
+                aliases:
+                    - selenium-hub.meet.jitsi
+
+    # Chrome nodes - each node runs one browser instance (scale with --scale chrome-node=N)
+    # Chrome nodes - scale with --scale chrome-node=N (each node = 1 browser = 1 participant)
+    chrome-node:
+        image: selenium/node-chrome:${SELENIUM_VERSION:-4.27}
+        restart: ${RESTART_POLICY:-unless-stopped}
+        shm_size: ${CHROME_SHM_SIZE:-2gb}
+        depends_on:
+            - selenium-hub
+        environment:
+            - SE_EVENT_BUS_HOST=selenium-hub
+            - SE_EVENT_BUS_PUBLISH_PORT=4442
+            - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+            - SE_NODE_SESSION_TIMEOUT=${SE_NODE_SESSION_TIMEOUT:-120}
+            - SE_NODE_MAX_SESSIONS=${SE_NODE_MAX_SESSIONS:-1}
+            - SE_VNC_ENABLED=false
+            - TZ=${TZ:-UTC}
+        volumes:
+            - /dev/shm:/dev/shm
+        networks:
+            meet.jitsi:
+
+    # Optional: Torture runner container with pre-built tools
+    # Build with: docker compose -f jitsi-meet-torture.yml build torture-runner
+    torture-runner:
+        container_name: jitsi-torture-runner
+        build:
+            context: ./jitsi-meet-torture
+            dockerfile: Dockerfile
+        profiles:
+            - manual
+        depends_on:
+            - selenium-hub
+        environment:
+            - HUB_URL=http://selenium-hub:4444/wd/hub
+            - INSTANCE_URL=${PUBLIC_URL}
+            - TZ=${TZ:-UTC}
+        networks:
+            meet.jitsi:
