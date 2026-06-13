@@ -624,9 +624,9 @@ services:
         image: filebrowser/filebrowser:latest
         restart: ${RESTART_POLICY:-unless-stopped}
         ports:
-            - '8081:80'
+            - '${FILEBROWSER_PORT:-8081}:80'
         volumes:
-            - ./recordings:/srv:Z
+            - /home/ubuntu/services/recordings:/srv:Z
             - filebrowser_data:/database
         user: "${UID:-1000}:${GID:-1000}"
         networks:
