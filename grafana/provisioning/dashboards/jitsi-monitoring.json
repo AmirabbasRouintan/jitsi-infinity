@@ -165,9 +165,9 @@
       "title": "Network Traffic",
       "type": "timeseries",
       "gridPos": {
-        "x": 16,
-        "y": 0,
-        "w": 8,
+        "x": 0,
+        "y": 16,
+        "w": 12,
         "h": 8
       },
       "targets": [
@@ -190,9 +190,9 @@
       "title": "Active Conferences",
       "type": "stat",
       "gridPos": {
-        "x": 0,
-        "y": 8,
-        "w": 6,
+        "x": 16,
+        "y": 0,
+        "w": 4,
         "h": 8
       },
       "targets": [
@@ -214,9 +214,9 @@
       "title": "Total Endpoints",
       "type": "stat",
       "gridPos": {
-        "x": 6,
-        "y": 8,
-        "w": 6,
+        "x": 20,
+        "y": 0,
+        "w": 4,
         "h": 8
       },
       "targets": [
@@ -235,9 +235,9 @@
       "title": "Active Endpoints",
       "type": "stat",
       "gridPos": {
-        "x": 12,
+        "x": 0,
         "y": 8,
-        "w": 6,
+        "w": 4,
         "h": 8
       },
       "targets": [
@@ -256,9 +256,9 @@
       "title": "Largest Conference",
       "type": "stat",
       "gridPos": {
-        "x": 18,
+        "x": 4,
         "y": 8,
-        "w": 6,
+        "w": 4,
         "h": 8
       },
       "targets": [
@@ -277,9 +277,9 @@
       "title": "JVB Health",
       "type": "stat",
       "gridPos": {
-        "x": 0,
-        "y": 16,
-        "w": 6,
+        "x": 8,
+        "y": 8,
+        "w": 4,
         "h": 8
       },
       "targets": [
@@ -314,7 +314,7 @@
       "title": "Incoming Bitrate",
       "type": "timeseries",
       "gridPos": {
-        "x": 6,
+        "x": 12,
         "y": 16,
         "w": 6,
         "h": 8
@@ -335,7 +335,7 @@
       "title": "Outgoing Bitrate",
       "type": "timeseries",
       "gridPos": {
-        "x": 12,
+        "x": 18,
         "y": 16,
         "w": 6,
         "h": 8
@@ -356,8 +356,8 @@
       "title": "Endpoints Sending Audio",
       "type": "timeseries",
       "gridPos": {
-        "x": 18,
-        "y": 16,
+        "x": 0,
+        "y": 24,
         "w": 6,
         "h": 8
       },
@@ -377,7 +377,7 @@
       "title": "Endpoints Sending Video",
       "type": "timeseries",
       "gridPos": {
-        "x": 0,
+        "x": 6,
         "y": 24,
         "w": 6,
         "h": 8
@@ -398,7 +398,7 @@
       "title": "Packet Loss Fraction",
       "type": "timeseries",
       "gridPos": {
-        "x": 6,
+        "x": 12,
         "y": 24,
         "w": 6,
         "h": 8
@@ -419,7 +419,7 @@
       "title": "JVB Stress",
       "type": "timeseries",
       "gridPos": {
-        "x": 12,
+        "x": 18,
         "y": 24,
         "w": 6,
         "h": 8
@@ -459,7 +459,7 @@
       "gridPos": {
         "x": 0,
         "y": 32,
-        "w": 8,
+        "w": 6,
         "h": 8
       },
       "targets": [
@@ -482,8 +482,8 @@
       "title": "Average RTT",
       "type": "timeseries",
       "gridPos": {
-        "x": 18,
-        "y": 24,
+        "x": 6,
+        "y": 32,
         "w": 6,
         "h": 8
       },
@@ -503,9 +503,9 @@
       "title": "Open File Descriptors",
       "type": "timeseries",
       "gridPos": {
-        "x": 8,
+        "x": 12,
         "y": 32,
-        "w": 8,
+        "w": 6,
         "h": 8
       },
       "targets": [
@@ -524,9 +524,9 @@
       "title": "Thread Count",
       "type": "timeseries",
       "gridPos": {
-        "x": 16,
+        "x": 18,
         "y": 32,
-        "w": 8,
+        "w": 6,
         "h": 8
       },
       "targets": [
