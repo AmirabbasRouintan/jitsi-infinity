@@ -1,7 +1,7 @@
 {
   "title": "Jitsi Meet Monitoring",
   "uid": "jitsi-monitoring",
-  "version": 6,
+  "version": 1,
   "tags": [
     "jitsi",
     "prometheus"
@@ -13,10 +13,10 @@
       "title": "Server CPU",
       "type": "gauge",
       "gridPos": {
-        "h": 8,
-        "w": 4,
         "x": 0,
-        "y": 0
+        "y": 0,
+        "w": 4,
+        "h": 8
       },
       "targets": [
         {
@@ -54,10 +54,10 @@
       "title": "Server Memory",
       "type": "gauge",
       "gridPos": {
-        "h": 8,
-        "w": 4,
         "x": 4,
-        "y": 0
+        "y": 0,
+        "w": 4,
+        "h": 8
       },
       "targets": [
         {
@@ -95,10 +95,10 @@
       "title": "Server Load",
       "type": "stat",
       "gridPos": {
-        "h": 8,
-        "w": 4,
         "x": 8,
-        "y": 0
+        "y": 0,
+        "w": 4,
+        "h": 8
       },
       "targets": [
         {
@@ -124,10 +124,10 @@
       "title": "Disk Usage",
       "type": "gauge",
       "gridPos": {
-        "h": 8,
-        "w": 4,
         "x": 12,
-        "y": 0
+        "y": 0,
+        "w": 4,
+        "h": 8
       },
       "targets": [
         {
@@ -165,10 +165,10 @@
       "title": "Network Traffic",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 16,
-        "y": 0
+        "y": 0,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -190,10 +190,10 @@
       "title": "Active Conferences",
       "type": "stat",
       "gridPos": {
-        "h": 6,
-        "w": 4,
         "x": 0,
-        "y": 8
+        "y": 8,
+        "w": 6,
+        "h": 6
       },
       "targets": [
         {
@@ -214,10 +214,10 @@
       "title": "Total Endpoints",
       "type": "stat",
       "gridPos": {
-        "h": 6,
-        "w": 4,
-        "x": 4,
-        "y": 8
+        "x": 6,
+        "y": 8,
+        "w": 6,
+        "h": 6
       },
       "targets": [
         {
@@ -235,10 +235,10 @@
       "title": "Active Endpoints",
       "type": "stat",
       "gridPos": {
-        "h": 6,
-        "w": 4,
-        "x": 8,
-        "y": 8
+        "x": 12,
+        "y": 8,
+        "w": 6,
+        "h": 6
       },
       "targets": [
         {
@@ -256,10 +256,10 @@
       "title": "Largest Conference",
       "type": "stat",
       "gridPos": {
-        "h": 6,
-        "w": 4,
-        "x": 12,
-        "y": 8
+        "x": 18,
+        "y": 8,
+        "w": 6,
+        "h": 6
       },
       "targets": [
         {
@@ -277,10 +277,10 @@
       "title": "JVB Health",
       "type": "stat",
       "gridPos": {
-        "h": 6,
-        "w": 4,
-        "x": 16,
-        "y": 8
+        "x": 0,
+        "y": 14,
+        "w": 6,
+        "h": 6
       },
       "targets": [
         {
@@ -314,10 +314,10 @@
       "title": "Incoming Bitrate",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
-        "x": 8,
-        "y": 14
+        "x": 6,
+        "y": 14,
+        "w": 6,
+        "h": 8
       },
       "targets": [
         {
@@ -335,10 +335,10 @@
       "title": "Outgoing Bitrate",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
-        "x": 16,
-        "y": 14
+        "x": 12,
+        "y": 14,
+        "w": 6,
+        "h": 8
       },
       "targets": [
         {
@@ -356,10 +356,10 @@
       "title": "Endpoints Sending Audio",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 18,
+        "y": 14,
         "w": 6,
-        "x": 0,
-        "y": 22
+        "h": 8
       },
       "targets": [
         {
@@ -377,10 +377,10 @@
       "title": "Endpoints Sending Video",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 0,
+        "y": 22,
         "w": 6,
-        "x": 6,
-        "y": 22
+        "h": 8
       },
       "targets": [
         {
@@ -398,10 +398,10 @@
       "title": "Packet Loss Fraction",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 6,
+        "y": 22,
         "w": 6,
-        "x": 12,
-        "y": 22
+        "h": 8
       },
       "targets": [
         {
@@ -419,10 +419,10 @@
       "title": "JVB Stress",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 12,
+        "y": 22,
         "w": 6,
-        "x": 18,
-        "y": 22
+        "h": 8
       },
       "targets": [
         {
@@ -457,10 +457,10 @@
       "title": "JVM Heap",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 6,
         "x": 0,
-        "y": 30
+        "y": 30,
+        "w": 6,
+        "h": 8
       },
       "targets": [
         {
@@ -482,10 +482,10 @@
       "title": "Average RTT",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 18,
+        "y": 22,
         "w": 6,
-        "x": 6,
-        "y": 30
+        "h": 8
       },
       "targets": [
         {
@@ -503,10 +503,10 @@
       "title": "Open File Descriptors",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 6,
+        "y": 30,
         "w": 6,
-        "x": 12,
-        "y": 30
+        "h": 8
       },
       "targets": [
         {
@@ -524,10 +524,10 @@
       "title": "Thread Count",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
+        "x": 12,
+        "y": 30,
         "w": 6,
-        "x": 18,
-        "y": 30
+        "h": 8
       },
       "targets": [
         {
@@ -545,10 +545,10 @@
       "title": "Packet Rates",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 0,
-        "y": 38
+        "y": 38,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -570,10 +570,10 @@
       "title": "Bytes Transferred",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 8,
-        "y": 38
+        "y": 38,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -595,10 +595,10 @@
       "title": "ICE Failures",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 16,
-        "y": 38
+        "y": 38,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -620,10 +620,10 @@
       "title": "WebSocket Messages",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 0,
-        "y": 46
+        "y": 46,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -645,10 +645,10 @@
       "title": "Endpoints by Type",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 8,
-        "y": 46
+        "y": 46,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
@@ -670,10 +670,10 @@
       "title": "Endpoint Errors",
       "type": "timeseries",
       "gridPos": {
-        "h": 8,
-        "w": 8,
         "x": 16,
-        "y": 46
+        "y": 46,
+        "w": 8,
+        "h": 8
       },
       "targets": [
         {
