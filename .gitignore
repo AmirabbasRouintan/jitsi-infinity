@@ -3,3 +3,7 @@ recordings/
 state/
 config/*/logs/
 
+# Environment files (contain secrets)
+.env
+.env.*
+
